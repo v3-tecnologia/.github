@@ -1,0 +1,20 @@
+labels:
+  - name: "user-story"
+    color: "1d76db" # Azul forte (destaque para novas funcionalidades)
+    description: "📖 Nova funcionalidade ou melhoria no produto"
+
+  - name: "tech"
+    color: "5319e7" # Roxo (indica melhorias técnicas)
+    description: "🛠️ Refatoração, atualização de dependências ou melhorias técnicas"
+
+  - name: "spike"
+    color: "ffcc00" # Amarelo (indica pesquisa e descoberta)
+    description: "🔍 Investigação, pesquisa ou prova de conceito"
+
+  - name: "fix"
+    color: "d73a4a" # Vermelho (indica correções urgentes)
+    description: "🐛 Correção de bug ou problema reportado"
+
+  - name: "sprint"
+    color: "0e8a16" # Verde (relacionado a organização e planejamento)
+    description: "🏃‍♂️ Itens priorizados para a sprint atual"
