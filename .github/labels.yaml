@@ -5,7 +5,7 @@ labels:
 
   - name: "tech"
     color: "5319e7" # Roxo (indica melhorias técnicas)
-    description: "🛠️ Refatoração, atualização de dependências ou melhorias técnicas"
+    description: "🛠️ Execução de uma tarefa técnica"
 
   - name: "spike"
     color: "ffcc00" # Amarelo (indica pesquisa e descoberta)
