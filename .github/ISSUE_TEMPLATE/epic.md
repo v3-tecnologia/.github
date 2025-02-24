@@ -1,6 +1,6 @@
 ---
 name: Epic
-about: Um épico representa uma iniciativa estratégica de grande impacto, que agrega valor ao produto ou à operação. Ele é composto por múltiplas histórias ou tarefas menores, organizadas para atingir um objetivo claro. Geralmente, abrange um período maior de tempo e envolve diferentes times ou áreas. 🚀  
+about: Um épico representa uma iniciativa estratégica de grande impacto 🚀  
 title: "[EPIC] Título do Épico"
 labels: epic
 ---
