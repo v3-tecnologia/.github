@@ -5,66 +5,87 @@ title: "[FIX] Título da Correção"
 labels: fix
 ---
 
-# Contexto
+# 📝 **Contexto**  
+_Explique o cenário que levou à identificação do problema. Detalhe os impactos e a importância da correção._  
 
-<Deve-se descrever um contexto para explicar o cenário que envolve ou que levou a esta correção>
+**Exemplo:**  
+O sistema de notificações falhou para alguns usuários, resultando na perda de alertas críticos. Esse problema afeta diretamente a experiência do usuário e pode comprometer ações importantes.  
 
-# Qual foi o erro identificado?
+---
 
-<Deve-se descrever o erro identificado>
+# 🛑 **Erro Identificado**  
+_Descreva o erro encontrado, incluindo mensagens de erro, comportamentos inesperados e possíveis impactos._  
 
-# Como é possível reproduzír o erro?
+**Exemplo:**  
+Os alertas de push não estão sendo entregues para usuários no Android após a última atualização do aplicativo.  
 
-<Uma lista com o passo a passo para que se possa reproduzir o erro encontrado>
+---
 
-1. Item 1
-2. Item 2
-3. Item 3
+# 🔄 **Passos para Reproduzir**  
+_Lista de passos para replicar o erro e facilitar a investigação._  
 
-# Evidências
+1. Abrir o aplicativo no Android.  
+2. Executar uma ação que deveria gerar uma notificação.  
+3. Verificar se a notificação foi recebida.  
 
-<Uma lista com links de fotos ou vídeos que evidenciem o problema ocorrendo. É importante se atentar a trazer evidências que mostrem que o problema ocorreu em uma data específica, por exemplo, mostrando a data e hora do computador.>
+---
 
-- Item 1
-- Item 2
-- Item 3
+# 📸 **Evidências**  
+_Anexe prints, vídeos ou logs que comprovem o erro. Sempre que possível, inclua data e hora para referência._  
 
-# Hipóteses
+- [📷 Screenshot do erro](#)  
+- [📹 Vídeo demonstrativo](#)  
+- [📜 Log do servidor](#)  
 
-<Uma lista de hipóteses que devem ser validadas ou descartadas para a correção do problema>
+---
 
-- Item 1
-- Item 2
-- Item 3
+# 🤔 **Hipóteses**  
+_Lista de possíveis causas para o problema, que devem ser validadas ou descartadas._  
 
-# O que deve ser feito?
+- 📌 Erro na configuração do serviço de notificações.  
+- 📌 Problema na permissão do app para notificações no Android.  
+- 📌 Falha na comunicação com o Firebase Cloud Messaging (FCM).  
 
-<Identificado o problema, criar uma lista sobre o que deve ser feito>
+---
 
-- Item 1
-- Item 2
-- Item 3
+# 🔧 **O que deve ser feito?**  
+_Lista de ações necessárias para corrigir o problema._  
 
-# Como testar?
+- 🛠️ Revisar as configurações do FCM e logs de envio.  
+- 🛠️ Testar o envio de notificações em dispositivos diferentes.  
+- 🛠️ Ajustar a documentação para evitar o erro no futuro.  
 
-<Uma lista com o passo a passo para que se possa testar a correção que foi realizada>
+---
 
-- Item 1
-- Item 2
-- Item 3
+# ✅ **Como Testar?**  
+_Lista de passos para validar a correção do problema._  
 
-# Definição de Pronto
+1. Executar os passos de reprodução após a correção.  
+2. Verificar se a notificação é entregue corretamente.  
+3. Testar em múltiplos dispositivos e sistemas operacionais.  
 
-<Uma lista clara e concisa de critérios que precisam ser atendidos para que o erro seja considerada resolvido>
+---
 
-- Item 1
-- Item 2
-- Item 3
+# 🎯 **Definição de Pronto**  
+_Critérios que devem ser atendidos para considerar o erro resolvido._  
 
-# Materiais Complementares
+- ✅ Notificações funcionando corretamente para todos os usuários.  
+- ✅ Logs indicando sucesso no envio das mensagens.  
+- ✅ Nenhum erro novo introduzido com a correção.  
 
-<Uma lista com links ou outros cards relacionados a tarefa em questão>
+---
 
-# Perguntas e Respostas
+# 📚 **Materiais Complementares**  
+_Adicione links úteis, documentos técnicos ou cards relacionados._  
 
-<É uma sessão essencial! Deve-se criar perguntas que ainda não estão claras para os desenvolvedores que irão atuar na tarefa. É importante que todas as perguntas estejam respondidas antes do início do desenvolvimento>
+- [🔗 Documento de integração com Firebase](#)  
+- [🔗 Registro de logs](#)  
+
+---
+
+# ❓ **Perguntas e Respostas**  
+_Questões ainda não esclarecidas para os desenvolvedores que atuarão na tarefa._  
+
+- ❓ O problema afeta apenas Android ou também iOS?  
+- ❓ O erro começou após uma atualização específica?  
+- ❓ Existe algum log de erro no backend indicando falha no envio?  

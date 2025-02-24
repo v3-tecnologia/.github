@@ -5,22 +5,48 @@ title: "[TECH] Título da Tarefa"
 labels: tech
 ---
 
-# Informações Técnicas
+# 🛠 **Informações Técnicas**  
+_Detalhes sobre o projeto, módulo ou arquivos envolvidos na tarefa._  
 
-<Informações que apoiam na identificação do projeto, módulo ou arquivo>
+**Exemplo:**  
+- 📌 Projeto: **Painel de Controle**  
+- 📦 Módulo: `dashboard-service`  
+- 📂 Arquivo principal: `data_processor.py`  
 
-# O que será feito?
+---
 
-<Informações que descrevem o que será feito nesta tarefa técnica>
+# 🎯 **O que será feito?**  
+_Descrição objetiva das atividades a serem realizadas._  
 
-# Como será feito?
+**Exemplo:**  
+- Implementar cache na API para reduzir tempo de resposta.  
+- Refatorar a consulta ao banco para otimizar performance.  
+- Criar novos testes unitários para validar as mudanças.  
 
-<Informações que descrevem como a tarefa será resolvida>
+---
 
-# Materiais Complementares
+# ⚙️ **Como será feito?**  
+_Detalhamento técnico de como a tarefa será resolvida._  
 
-<Uma lista com links ou outros cards relacionados a tarefa em questão>
+**Exemplo:**  
+- Utilizar **Redis** para armazenar resultados de consultas frequentes.  
+- Melhorar índices no banco de dados para reduzir tempo de execução.  
+- Adicionar logs de depuração para monitoramento e troubleshooting.  
 
-# Perguntas e Respostas
+---
 
-<É uma sessão essencial! Deve-se criar perguntas que ainda não estão claras para os desenvolvedores que irão atuar na tarefa. É importante que todas as perguntas estejam respondidas antes do início do desenvolvimento>
+# 📚 **Materiais Complementares**  
+_Adicione links úteis, documentos técnicos ou cards relacionados._  
+
+- [🔗 Logs de erro](#)  
+- [🔗 Especificação técnica da API](#)  
+- [🔗 Chamado do suporte](#)  
+
+---
+
+# ❓ **Perguntas e Respostas**  
+_Questões que precisam ser esclarecidas antes do desenvolvimento._  
+
+- ❓ Qual a tolerância máxima para o tempo de resposta da API?  
+- ❓ Existe um SLA definido para essa funcionalidade?  
+- ❓ A mudança pode impactar outras partes do sistema?  

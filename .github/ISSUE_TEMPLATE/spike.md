@@ -5,34 +5,72 @@ title: "[SPIKE] Título da Investigação"
 labels: spike
 ---
 
-# Contexto
+# 📝 **Contexto**  
+_Explique o cenário que levou à necessidade da investigação. Inclua informações sobre impactos e relevância._  
 
-<Deve-se descrever um contexto para explicar o cenário que envolve ou que levou a esta investigação>
+**Exemplo:**  
+Usuários relataram intermitência no carregamento de dados no painel de métricas. A investigação visa entender a causa do problema e propor soluções.  
 
-# Origem da Investigação
+---
 
-<Deve-se informar qual foi o departamento ou pessoa que avisou sobre o possível problema>
+# 📢 **Origem da Investigação**  
+_Informe qual departamento ou pessoa reportou o problema._  
 
-# O que deve ser investigado?
+**Exemplo:**  
+🔹 Time de Suporte relatou múltiplos chamados sobre o erro.  
+🔹 Relatório de monitoramento identificou aumento nas falhas de requisição.  
 
-<Deve-se descrever detalhadamente o que deve ser investigado>
+---
 
-# Hipóteses
+# 🔍 **O que deve ser investigado?**  
+_Detalhe o que precisa ser analisado, incluindo áreas afetadas e suspeitas iniciais._  
 
-<Uma lista de hipóteses que devem ser validadas ou descartadas>
+**Exemplo:**  
+Analisar a API de métricas para identificar possíveis falhas na consulta ao banco de dados e verificar logs de erro no serviço responsável pelo carregamento dos gráficos.  
 
-# Entregável
+---
 
-<Descrição do que deve ser entregue com essa investigação. Normalmente pode ser a compilação em um documento técnico, ou somente as respostas para as hipóteses>
+# 🤔 **Hipóteses**  
+_Lista de possíveis causas que precisam ser validadas ou descartadas._  
 
-# Informações Técnicas
+- 📌 Latência alta na resposta do banco de dados.  
+- 📌 Configuração incorreta de cache.  
+- 📌 Erro de integração entre o backend e o front.  
 
-<Informações que apoiam na investigação como por exemplo: aplicação, módulo ou arquivo>
+---
 
-# Materiais Complementares
+# 📄 **Entregável**  
+_Descreva o que deve ser entregue ao final da investigação._  
 
-<Uma lista com links ou outros cards relacionados a investigação em questão>
+**Exemplo:**  
+- 📜 Relatório técnico detalhando as descobertas.  
+- ✅ Confirmação de quais hipóteses foram validadas ou descartadas.  
+- 🔍 Sugestões de próximas ações caso o problema seja confirmado.  
 
-# Perguntas e Respostas
+---
 
-<É uma sessão essencial! Deve-se criar perguntas que ainda não estão claras para os desenvolvedores que irão atuar na tarefa. É importante que todas as perguntas estejam respondidas antes do início do desenvolvimento>
+# 🛠 **Informações Técnicas**  
+_Detalhe informações úteis para a investigação, como serviços, módulos e arquivos envolvidos._  
+
+**Exemplo:**  
+- Aplicação: 📊 Painel de Métricas  
+- Módulo: 📦 API de Estatísticas  
+- Arquivo: `metrics_service.py`  
+
+---
+
+# 📚 **Materiais Complementares**  
+_Adicione links úteis, documentos técnicos ou cards relacionados._  
+
+- [🔗 Logs de erro da API](#)  
+- [🔗 Chamados do suporte](#)  
+- [🔗 Documentação da API](#)  
+
+---
+
+# ❓ **Perguntas e Respostas**  
+_Questões que ainda não estão claras para a equipe e precisam de resposta antes do desenvolvimento._  
+
+- ❓ O problema ocorre em todas as requisições ou apenas em algumas?  
+- ❓ Há um padrão nos horários em que ocorre a falha?  
+- ❓ Alguma atualização recente pode ter causado essa intermitência?  

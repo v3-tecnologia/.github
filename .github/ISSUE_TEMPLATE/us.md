@@ -5,52 +5,74 @@ title: "[US] Título da User Story"
 labels: us
 ---
 
-# Contexto
+# 🌎 **Contexto**  
+_Descreva o cenário que levou à criação desta tarefa e sua relevância._  
 
-<Deve-se descrever um contexto para explicar o cenário que envolve ou que levou a esta tarefa>
+**Exemplo:**  
+Atualmente, os clientes enfrentam dificuldades para concluir compras devido à falta de opções de pagamento, resultando em abandono de carrinho.  
 
-# Ojetivo do Negócio
+---
 
-<Descreva o impacto esperado e como isso contribui para os objetivos da empresa>
+# 🎯 **Objetivo do Negócio**  
+_Qual o impacto esperado e como isso contribui para os objetivos da empresa?_  
 
-# Regras
+**Exemplo:**  
+Melhorar a conversão de vendas ao oferecer novos métodos de pagamento, reduzindo a taxa de abandono do checkout.  
 
-**Como** [tipo de usuário, ex: cliente]
+---
 
-**Eu quero** [ação desejada, ex: realizar um pagamento com cartão de crédito]
+# 📜 **Regras**  
+_Definição clara do que deve ser implementado usando o formato de história de usuário._  
 
-**Para** [objetivo, ex: concluir minha compra rapidamente].
+**Como** _[tipo de usuário]_  
+**Eu quero** _[ação desejada]_  
+**Para** _[objetivo desejado]_  
 
-# Critérios de Aceite
+**Exemplo:**  
+**Como** cliente, **eu quero** realizar um pagamento com PIX, **para** concluir minha compra de forma rápida e segura.  
 
-Defina os critérios claros para considerar o card como concluído. 
+---
 
-Ex:
+# ✅ **Critérios de Aceite**  
+_Requisitos que devem ser atendidos para a tarefa ser considerada concluída._  
 
-- O usuário pode selecionar o método de pagamento (cartão, boleto).
-- A transação é confirmada e salva no sistema.
-- Em caso de erro, uma mensagem explicativa é exibida.
+- O usuário pode selecionar o método de pagamento (cartão, boleto, PIX).  
+- A transação é processada e salva corretamente no sistema.  
+- Em caso de erro, uma mensagem clara e explicativa é exibida.  
 
-# Definição de Pronto
+---
 
-<Uma lista clara e concisa de critérios que precisam ser atendidos para que uma tarefa seja considerada completa>
+# 🚀 **Definição de Pronto**  
+_Critérios objetivos que garantem que a entrega está completa e validada._  
 
-- Item 1
-- Item 2
-- Item 3
+- ✅ O código está versionado e revisado.  
+- ✅ Os testes foram realizados e aprovados.  
+- ✅ A funcionalidade foi validada em ambiente de staging.  
+- ✅ O impacto no sistema foi avaliado e documentado.  
 
-# Materiais Complementares
+---
 
-<Uma lista com links ou outros cards relacionados a tarefa em questão>
+# 📚 **Materiais Complementares**  
+_Links úteis, documentos técnicos ou cards relacionados._  
 
-# Tarefas Técnicas
+- [🔗 Especificação do gateway de pagamento](#)  
+- [🔗 Logs de erro relacionados](#)  
+- [🔗 Chamado do suporte](#)  
 
-<Uma lista de tarefas técnicas que deverão ser criadas a partir dessa US>
+---
 
-- Item 1
-- Item 2
-- Item 3
+# 🔧 **Tarefas Técnicas**  
+_Atividades técnicas derivadas desta User Story._  
 
-# Perguntas e Respostas
+- Implementar integração com API de pagamentos.  
+- Criar testes unitários e de integração.  
+- Ajustar interface para exibir opções de pagamento.  
 
-<É uma sessão essencial! Deve-se criar perguntas que ainda não estão claras para os desenvolvedores que irão atuar na tarefa. É importante que todas as perguntas estejam respondidas antes do início do desenvolvimento>
+---
+
+# ❓ **Perguntas e Respostas**  
+_Questões que precisam ser esclarecidas antes do desenvolvimento._  
+
+- ❓ O método PIX precisa de confirmação manual do usuário?  
+- ❓ Existe um tempo máximo para processar a transação?  
+- ❓ Como serão tratados os casos de erro na API do pagamento?  

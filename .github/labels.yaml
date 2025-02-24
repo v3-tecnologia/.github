@@ -1,20 +1,24 @@
 labels:
+  - name: "epic"
+    color: "881235"
+    description: "🚀 Iniciativa estratégica de grande impacto"
+
   - name: "user-story"
-    color: "1d76db" # Azul forte (destaque para novas funcionalidades)
+    color: "1d76db"
     description: "📖 Nova funcionalidade ou melhoria no produto"
 
   - name: "tech"
-    color: "5319e7" # Roxo (indica melhorias técnicas)
+    color: "5319e7"
     description: "🛠️ Execução de uma tarefa técnica"
 
   - name: "spike"
-    color: "ffcc00" # Amarelo (indica pesquisa e descoberta)
+    color: "ffcc00"
     description: "🔍 Investigação, pesquisa ou prova de conceito"
 
   - name: "fix"
-    color: "d73a4a" # Vermelho (indica correções urgentes)
+    color: "d73a4a"
     description: "🐛 Correção de bug ou problema reportado"
 
   - name: "sprint"
-    color: "0e8a16" # Verde (relacionado a organização e planejamento)
+    color: "0e8a16"
     description: "🏃‍♂️ Itens priorizados para a sprint atual"
