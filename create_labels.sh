@@ -35,6 +35,20 @@ LABELS=(
   "sprint 0e8a16 🏃‍♂️ Itens priorizados para a sprint atual"
 )
 
+# LABELS=(
+#   "teste ffcc00 🔬 Validação e testes finais antes da entrega"
+#   "pedido 0075ca 🛒 Pedido formalizado e aguardando processamento"
+#   "lead 9b59b6 🎯 Novo lead capturado, aguardando primeiro contato"
+#   "follow-up f39c12 📞 Acompanhamento necessário para fechar negócio"
+#   "proposta 27ae60 📄 Proposta enviada ao cliente"
+#   "fechamento 2ecc71 🤝 Negociação avançada, perto de fechar contrato"
+#   "financeiro d73a4a 💰 Processos administrativos e financeiros"
+#   "logistica f1c40f 🚛 Envio de materiais ou equipamentos"
+#   "instalacao 3498db 🛠️ Agendamento e execução da instalação"
+#   "contrato 8e44ad ✍️ Assinatura de contrato e formalização"
+#   "suporte 16a085 🆘 Atendimento pós-venda e suporte técnico"
+# )
+
 # Função para criar novas labels
 create_labels() {
   echo "🚀 Criando novas labels..."
