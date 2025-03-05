@@ -6,31 +6,28 @@ labels: sale
 ---
 
 # 📝 **Anotações**  
-- [🔹] Cliente interessado em upgrade para plano Enterprise  
-- [🔹] Feedback positivo sobre o suporte técnico  
-- [🔹] Necessidade de integração com ERP informado pelo cliente  
+- [🔹] Lead interessado em seguir com o teste
+- [🔹] Lead atua no mercado de VT 
+- [🔹] Lead tem bons resultados com a venda de videotelemetria
 
 ---
 
 # ✅ **Ações**  
-- [⚡] Agendar follow-up com o cliente para apresentação do plano Enterprise (Prazo: 28/02/2025)  
-- [⚡] Enviar proposta comercial atualizada para o cliente por e-mail  
-- [⚡] Adicionar pedido de integração com ERP na fila de priorização do time técnico  
+- [⚡] Agendar nova conversa
+- [⚡] Enviar termo de teste
+
 
 ---
 
-# 🖥️ **HWs** *(Hardwares ou equipamentos relacionados ao cliente, se aplicável)*  
-- [🔧] Servidor dedicado Dell PowerEdge R750  
-- [🔧] Firewall Fortinet FortiGate 100F  
-- [🔧] Estação de trabalho Lenovo ThinkPad P14s  
+# 🖥️ **HWs** *(Hardwares utilizados pelo lead)*  
+- [🔧] xx
+
 
 ---
 
-# 🌐 **Plataforma** *(Tecnologias utilizadas pelo cliente ou soluções adotadas)*  
-- **Sistema CRM:** Salesforce  
-- **ERP:** SAP Business One  
-- **E-commerce:** VTEX  
-- **Banco de Dados:** PostgreSQL  
+# 🌐 **Plataforma** *(Própria ou Terceiros)*  
+- xxx
+ 
 
 ---
 
@@ -38,13 +35,13 @@ labels: sale
 
 | Nome         | CNPJ                | Site  |
 |-------------|---------------------|------|
-| **Tech Solutions LTDA** | 12.345.678/0001-99 | [www.techsolutions.com.br](https://www.techsolutions.com.br) |
+|  |  | []() |
 
 | Contato       | Telefone          | Celular  |
 |--------------|------------------|---------|
-| **João Silva** (Diretor de TI) | (11) 4000-1234 | (11) 99999-9999 |
+| **x** (cargo) |  |  |
 
 | E-mail                     | Posição        | Telefone         | Cidade - UF  |
 |----------------------------|---------------|------------------|-------------|
-| joao.silva@techsolutions.com.br | Diretor de TI | (11) 4000-1234 | São Paulo - SP |
-| maria.fernandes@techsolutions.com.br | Coordenadora de TI | (11) 4000-5678 | São Paulo - SP |
+| x | cargo | (xx) x | São Paulo - SP |
+| x | cargo | (xx) x | São Paulo - SP |
