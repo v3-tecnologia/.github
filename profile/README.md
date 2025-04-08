@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="./.github/logo.png" width="200px">
+    <img src="../.github/logo.png" width="200px">
 </p>
 
 <h1 align="center" style="font-weight: bold;">🚀 Bem-vindo à V3 Tecnologia!</h1>
