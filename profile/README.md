@@ -1,4 +1,8 @@
-# 🚀 Bem-vindo à V3 Tecnologia!
+<p align="center">
+    <img src="./.github/logo.png" width="200px">
+</p>
+
+<h1 align="center" style="font-weight: bold;">🚀 Bem-vindo à V3 Tecnologia!</h1>
 
 **Criada em 2018**, a V3 Tecnologia está moldando o futuro da mobilidade inteligente! Aqui, combinamos **Veículo, Vídeo & Visão** para transformar a gestão de frotas com **videotelemetria avançada** e soluções de **inteligência artificial**. 🔍🚗💡
 
