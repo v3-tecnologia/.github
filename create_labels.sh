@@ -12,7 +12,21 @@ fi
 remove_all_labels() {
   echo "🔄 Removendo labels existentes..."
 
-  # Pega todas as labels do repositório
+  # Labels específicas que precisam ser removidas manualmente
+  SPECIAL_LABELS=(
+    "help wanted"
+    "good first issue"
+  )
+
+  # Remove as labels especiais primeiro
+  for label in "${SPECIAL_LABELS[@]}"; do
+    echo "❌ Removendo label especial: $label"
+    curl -X DELETE "https://api.github.com/repos/$OWNER/$REPO/labels/$(echo "$label" | sed 's/ /%20/g')" \
+      -H "Authorization: token $TOKEN" \
+      -H "Accept: application/vnd.github.v3+json"
+  done
+
+  # Pega todas as outras labels do repositório
   LABELS_TO_DELETE=$(curl -s -H "Authorization: token $TOKEN" \
     -H "Accept: application/vnd.github.v3+json" \
     "https://api.github.com/repos/$OWNER/$REPO/labels" | jq -r '.[].name')
